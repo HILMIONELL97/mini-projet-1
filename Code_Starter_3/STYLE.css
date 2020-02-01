@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family:'Poppins', sans-serif;
+}
+
+.box{
+display: grid;
+grid-template-columns: 50% auto;
+position: absolute;
+width: 1000px;
+padding: 40px;
+top: 50%;
+left: 40%;
+transform: translate(-40%,-50%);
+}
+.right{
+    padding:40px;
+    color: white;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+.left{
+    display: grid;
+    grid-template-rows: 1fr ;
+}
+h1{
+    font-size:40px;
+    line-height: 60px;
+    font-weight: bold;
+}
+p{
+    font-weight: 550;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.btn2{
+    width: 375px;
+    margin-left: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: hsl(154, 59%, 51%);
+    letter-spacing: 2px;
+    opacity: 0.9;
+    font-weight: 400;
+    color: white;
+}
+.left p{
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+    max-width: 360px;
+    font-size: 11px;
+    margin-left: 25px;
+}
+.span2{
+   color:  hsl(0, 100%, 74%);
+   font-weight: bold;
+}
+
+.box2{
+   background-color: white;
+   border-radius: 10px;
+   padding: 20px;
+   margin-right: 60px;
+   max-width: 400px;
+}
+input{
+    width: 340px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px;
+    
+}
+
+.btn1{
+    width: 440px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(248, 32%, 49%);
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.span1{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing:1px ;
+}
+
+@media screen and (max-width: 500px){
+    
+    
+    .box{
+        display: grid;
+        grid-template-columns: 1fr;
+       width: min-content;
+       margin-left: 30px;
+        }  
+        
+       .right{
+           text-align: left;
+           margin-right: 60px;
+       }
+       .box2{
+        margin-right: 60px;
+        max-width: 300px;
+       }
+       input{
+        width: 240px;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 15px;
+       }
+       .btn1{
+           max-width: 340px;
+       }
+       .btn2{
+        max-width: 275px;
+       }
+       h1{
+           font-size: 30px;
+       }
+       .right p{
+           font-size: medium;
+       }
+}
