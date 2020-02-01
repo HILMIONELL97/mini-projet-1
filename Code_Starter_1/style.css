@@ -1,0 +1,165 @@
+
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: hsl(0, 0%, 98%);
+        font-family: 'Poppins', sans-serif;
+    }
+    .PAGE{
+        height: 100%;
+        background-color: hsl(0, 0%, 98%);
+        margin: 0 auto;
+        font-size: 15px;
+        
+    }
+
+    
+    
+    .ele{
+        background-color: #ffffff;
+        text-align: left;
+        padding: 15px;
+        margin:auto;
+        margin-bottom: 16px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px; 
+        max-width: 300px;  
+        min-height:150px ;
+    }
+    
+    .ele1{
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;    
+    }
+
+
+    .card-image{
+        position: relative;
+        left: 250px;
+        width: 40px;
+        top: 30px;
+    }
+    
+    
+    .PARA2{
+     color:  hsl(0, 1%, 54%);
+     margin-top: 30px;
+     text-align: left;
+     
+    
+    }
+    .hr1{
+        border-top: 4px solid hsl(180, 62%, 55%);
+    }
+    .hr2{
+        border-top: 4px solid hsl(0, 78%, 62%);
+    }
+    .hr3{
+        border-top: 4px solid hsl(34, 97%, 64%);
+    }
+    .hr4{
+        border-top: 4px solid hsl(212, 86%, 64%);
+    }
+    p{
+        font-weight: 200px;
+        text-align: center;
+        color: hsl(0, 1%, 54%);
+        max-width: 350px;
+        margin-left: 40px;
+    }
+    
+    h1{
+    font-size: x-large;
+    margin-bottom: 20px;
+    }
+
+    footer{
+        padding: 5px;
+        margin-left: 40px;
+    }
+    h3{
+        font-weight: 400;
+    }
+     @media only screen and (min-width: 1440px) {
+
+      *{
+          margin: 0;
+          padding: 0;
+      }
+ 
+      .PAGE {
+        font-size: 21px;
+    }
+    .ele{
+       
+        background-color: #ffffff;
+       
+        padding: 40px;
+        
+        border-radius: 10px;
+    }
+    .img{
+        position: relative;
+        left: 260px;
+        width: 60px;
+        top: 10px;
+    }
+    
+    .box{
+   max-width: 1400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr   ;
+    
+    
+    }
+    .Supervisor {
+       grid-column: 1/2;
+       grid-row: 2/3;
+       
+    }
+    .team-builder{
+      grid-column: 2/3;
+      grid-row: 1/2;
+      margin-left: 20px;
+    }
+    
+    .Karma {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-left: 20px;
+    
+    } 
+    
+    .Calculator{
+    grid-column: 3/4;
+    grid-row: 2/3;
+   
+ 
+    
+    }  
+    
+    
+    
+    h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    }
+    p{
+     margin-bottom: 50px;
+     max-width: 1400px;
+    text-align: center;
+    font-size: 25px;
+    color:  hsl(0, 1%, 54%)
+    } 
+    footer{
+        text-align: center;
+        margin-top: 10px;
+    }
+    }    
